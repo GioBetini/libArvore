@@ -38,7 +38,7 @@ public class ArvoreInt{
         try{
             No no = nodeSearch(raiz, valor);
             int level = nodeLevel(raiz, valor);
-            System.out.println("Dado"+no.dado+" nível"+level);
+            System.out.println("Dado "+no.dado+" nível "+level);
         } catch(Exception e){
             throw new Exception("Valor não existente");
         }
