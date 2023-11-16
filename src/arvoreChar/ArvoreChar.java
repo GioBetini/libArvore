@@ -127,7 +127,7 @@ public class ArvoreChar{
         }
     }
     
-    void remove(char valor)throws Exception{
+    public void remove(char valor)throws Exception{
         try{
             removeChild(raiz, valor);
         } catch(Exception e){
